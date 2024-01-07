@@ -298,12 +298,14 @@ a.registration-link:hover {
     .about-us-header2 {
         margin-right: 8%;
         margin-left: 8%;
+        font-size: 20px;
     }
     .about-us-text {
         margin-right: 8%;
         margin-left: 8%;
         margin-bottom: 30px;
         padding: 15px 10%;
+        font-size: 15px;
     }
 }
 
@@ -323,11 +325,11 @@ a.registration-link:hover {
 }
 .regi-text {
     padding: 20px 15%;
-    color: rgb(247, 242, 227);
+    color: rgb(253, 251, 246);
     text-align: center;
 }
 .regi-btn {
-        background-color: rgb(247, 242, 227);
+        background-color: rgb(253, 251, 246);
         border: none;
         color: maroon;
         border-radius: 5px;
@@ -335,6 +337,7 @@ a.registration-link:hover {
         margin: 10px;
         font-family: poppins;
         transition: 0.5s;
+        font-size: 18px;
      }
 
 .regi-link {
@@ -350,7 +353,6 @@ a.registration-link:hover {
     opacity: 0.8;
 }
 
-
      
 @media (max-width:800px) {
     .regi-container {
@@ -364,6 +366,9 @@ a.registration-link:hover {
         margin-top: 0;
         margin-bottom: 50px;
     } 
+    .regi-text {
+        font-size: 15px;
+    }
 }
 
 .filler-image{
@@ -418,10 +423,13 @@ a.registration-link:hover {
 }
 .grid-item-head {
     padding: 20px;
+    font-size: 20px;
 }
 .grid-item-desc {
     padding: 20px;
+    font-size: 14px;
 }
+
 
 /*Reviews*/
 .review-container {
@@ -510,6 +518,7 @@ a.registration-link:hover {
         padding-left: 25px;
         padding-right: 10%;
         padding-top: 5px;
+        font-size: 14px;
     }
     .review-date {
         padding-left: 30px;
