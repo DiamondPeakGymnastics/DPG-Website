@@ -9,11 +9,11 @@
 }
 body {
     font-family: poppins;
-    background-color: rgb(247, 242, 227);
+    background-color: rgb(253, 251, 246);
     scroll-behavior: smooth;
 }
 nav {
-    background-color: rgb(247, 235, 206);
+    background-color: rgb(253, 251, 246);
     height: 80px;
     width: 100%;
     position: fixed;
@@ -185,14 +185,14 @@ a.registration-link:hover {
 .hero-image {
     width: 100%;
     object-fit: cover;
-    height: 700px;
+    height: 450px;
 }
 .hero-logo {
     position: absolute;
     bottom: 20px;
     right: 15px;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -209,24 +209,45 @@ a.registration-link:hover {
     background-color: maroon;
     margin-top: 0;
     text-align: center;
-    color: antiquewhite;
+    color: white;
 }
 
 @media (max-width: 800px) {
+    .hero-image {
+        width: 100%;
+        object-fit: cover;
+        height: 450px;
+    }
     .hero-logo {
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
+    }
+    
+    .hero-image-container {
+        position: relative;
+        background-color: maroon;
+        text-align: center;
+    }
+    
+    .hero-image-text {
+        padding: 20px;
+        width: 100%;
+        font-size: 25px;
+        background-color: maroon;
+        margin-top: 0;
+        text-align: center;
+        color: white;
     }
 }
 
 /*Mission Container*/
 .mission-container {
-    background-color: rgb(247, 242, 227);
+    background-color:rgb(253, 251, 246);
     width: 100%;
     text-align: center;
 }
 .mission-header {
-    padding: 20px 20px;
+    padding: 22px 20px;
     background-color: black;
     color: #ebebeb;
     font-weight: bold;
@@ -239,6 +260,9 @@ a.registration-link:hover {
     text-align: center;
 }
 @media (max-width:600px) {
+    .mission-header {
+        font-size: 18px;
+    }
     .mission-text {
         padding: 40px 10%;
         font-size: 15px;
@@ -570,11 +594,11 @@ input[type=submit]:active {
     color: white;
     padding: 60px;
     text-align: left;
+    font-size: 10px;
 }
 
 .fa {
     padding: 20px;
-    font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -591,7 +615,7 @@ input[type=submit]:active {
 
 
    .fa-indeed {
-    font-size: 15px;
+    
     font-family: poppins;
     padding: 10px;
     text-decoration: none;
