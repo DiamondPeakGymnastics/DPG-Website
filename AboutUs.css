@@ -278,11 +278,11 @@ div p {
     color: white;
     padding: 60px;
     text-align: left;
+    font-size: 10px;
 }
 
 .fa {
     padding: 20px;
-    font-size: 30px;
     width: 50px;
     text-align: center;
     text-decoration: none;
@@ -299,7 +299,7 @@ div p {
 
 
    .fa-indeed {
-    font-size: 15px;
+    
     font-family: poppins;
     padding: 10px;
     text-decoration: none;
