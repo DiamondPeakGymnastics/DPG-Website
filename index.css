@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: poppins;
+    font-family: poppins, Arial, Helvetica, sans-serif;
     background-color: rgb(253, 251, 246);
     scroll-behavior: smooth;
 }
@@ -345,7 +345,7 @@ a.registration-link:hover {
     border-radius: 5px;
     padding: 20px;
     margin: 10px;
-    font-family: poppins;
+    font-family: poppins, Arial, Helvetica, sans-serif;
     transition: 0.5s;
 }
 
@@ -581,7 +581,7 @@ form {
     color: maroon;
     border: none;
     font-weight: bold;
-    font-family: Poppins;
+    font-family: poppins, Arial, Helvetica, sans-serif;
   }
   
   input[type=submit]:hover {
@@ -625,7 +625,7 @@ input[type=submit]:active {
 
    .fa-indeed {
     
-    font-family: poppins;
+    font-family: poppins, Arial, Helvetica, sans-serif;
     padding: 10px;
     text-decoration: none;
     color: white;
