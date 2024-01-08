@@ -9,15 +9,14 @@
 }
 body {
     font-family: poppins, Arial, Helvetica, sans-serif;
-    background-color: rgb(253, 251, 246);
+    background-color:  rgb(253, 251, 246);
     scroll-behavior: smooth;
 }
 nav {
-    background-color: rgb(253, 251, 246);
+    background-color:  rgb(253, 251, 246);
     height: 80px;
     width: 100%;
     position: fixed;
-    z-index: 100;
 }
 
 label.logo {
@@ -130,7 +129,7 @@ a.registration-link:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background:  rgb(253, 251, 246);
+        background: rgb(253, 251, 246);
         top: 80px;
         left: -100%;
         text-align: center;
@@ -181,424 +180,46 @@ a.registration-link:hover {
     
 }
 
-/*Hero Image Styles*/     
-.hero-image {
-    width: 100%;
-    object-fit: cover;
-    height: 450px;
-}
-.hero-logo {
-    position: absolute;
-    bottom: 20px;
-    right: 15px;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
-.hero-image-container {
-    position: relative;
+.store-msg {
+    margin: 15% 15%;
     background-color: maroon;
-    text-align: center;
-}
-
-.hero-image-text {
-    padding: 20px;
-    width: 100%;
-    font-size: 50px;
-    background-color: maroon;
-    margin-top: 0;
-    text-align: center;
     color: white;
-}
-
-@media (max-width: 800px) {
-    .hero-image {
-        width: 100%;
-        object-fit: cover;
-        height: 450px;
-    }
-    .hero-logo {
-        height: 50px;
-        width: 50px;
-    }
-    
-    .hero-image-container {
-        position: relative;
-        background-color: maroon;
-        text-align: center;
-    }
-    
-    .hero-image-text {
-        padding: 20px;
-        width: 100%;
-        font-size: 25px;
-        background-color: maroon;
-        margin-top: 0;
-        text-align: center;
-        color: white;
-    }
-}
-
-/*Mission Container*/
-.mission-container {
-    background-color:rgb(253, 251, 246);
-    width: 100%;
-    text-align: center;
-}
-.mission-header {
-    padding: 22px 20px;
-    background-color: black;
-    color: #ebebeb;
-    font-weight: bold;
-    box-shadow: 0px 5px 10px rgb(90, 88, 88);
-}
-.mission-text {
-    padding: 40px 15%;
-    font-size: 20px;
-    color: black;
-    text-align: center;
-}
-@media (max-width:600px) {
-    .mission-header {
-        font-size: 18px;
-    }
-    .mission-text {
-        padding: 40px 10%;
-        font-size: 15px;
-    }
-}
-/*Our Mission*/
-.about-us-header2 {
-    padding: 20px;
-    text-align: center;
-    color: white;
-    background-color: maroon;
-    margin-top: 30px;
-    margin-right: 15%;
-    margin-left: 15%;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    box-shadow: 0px 5px 10px rgb(90, 88, 88);
-}
-.about-us-text {
-    text-align: center;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-bottom: 50px;
-    background-color: #ebebeb;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    padding: 30px 15%;
-    color: maroon;
-    box-shadow: 0px 5px 10px rgb(90, 88, 88);
-}
-
-@media (max-width: 800px) {
-    .about-us-header2 {
-        margin-right: 8%;
-        margin-left: 8%;
-        font-size: 20px;
-    }
-    .about-us-text {
-        margin-right: 8%;
-        margin-left: 8%;
-        margin-bottom: 30px;
-        padding: 15px 10%;
-        font-size: 15px;
-    }
-}
-
-/*Registration*/
-.regi-container {
-    background-color: maroon;
-    display: block;
-    margin-right: 15%;
-    margin-left: 15%;
-    margin-top: 0;
-    margin-bottom: 50px;
-    padding: 20px;
+    padding: 50px;
     border-radius: 8px;
-    text-align: center;
-    box-shadow: 0px 5px 10px rgb(90, 88, 88);
-    padding: 10px;
-}
-.regi-text {
-    padding: 20px 15%;
-    color: rgb(253, 251, 246);
-    text-align: center;
-}
-.regi-btn {
-        background-color: rgb(253, 251, 246);
-        border: none;
-        color: maroon;
-        border-radius: 5px;
-        padding: 20px;
-        margin: 10px;
-        font-family: poppins;
-        transition: 0.5s;
-        font-size: 18px;
-     }
-
-.regi-link {
-    color: maroon;
-    border-radius: 5px;
-    padding: 20px;
-    margin: 10px;
-    font-family: poppins, Arial, Helvetica, sans-serif;
-    transition: 0.5s;
-}
-
-.regi-link, .regi-btn:hover {
-    opacity: 0.8;
-}
-
-     
-@media (max-width:800px) {
-    .regi-container {
-        display: inline-block;
-        padding: 10px;
-        border-radius: 8px;
-        text-align: center;
-        font-size: 15px;
-        margin-right: 8%;
-        margin-left: 8%;
-        margin-top: 0;
-        margin-bottom: 50px;
-    } 
-    .regi-text {
-        font-size: 15px;
-    }
-}
-
-.filler-image{
-   width: 100%;
-}
-
-
-
-/*Grid Container*/
-.grid-header {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 30px;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border-top-right-radius: 8px;
-    border-top-left-radius: 8px;
-    box-shadow: 0px 5px 10px rgb(158, 150, 150);
-}
-.grid-container {
-    background-color:rgb(122, 28, 28);
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 100px 30px;
-    column-gap: 30px;
-    margin-left: 20px ;
-    margin-right: 20px ;
-    margin-bottom: 30px;
-    border-bottom-right-radius: 8px ;
-    border-bottom-left-radius: 8px;
-    box-shadow: 0px 5px 10px rgb(158, 150, 150);
-}
-
-@media (max-width:800px) {
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 40px 30px;
-        row-gap: 40px;
-    }
-}
-.grid-item {
-    text-align: center;
-    background-color: white;
-    padding-bottom:20px;
-    border-radius: 8px;
-    color: black;
-    background-color: rgb(247, 242, 227);
-    box-shadow: 0px 10px 10px rgb(184, 8, 8);
-}
-.grid-item-head {
-    padding: 20px;
-    font-size: 20px;
-}
-.grid-item-desc {
-    padding: 20px;
-    font-size: 14px;
-}
-
-
-/*Reviews*/
-.review-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 25px;
-    margin: 50px 20px;
-}
-.review-header {
-    text-align: center;
-    background-color: black;
-    color: white;
-    margin: 0;
-    padding: 20px;
-    border-radius: 8px;
-    text-decoration: underline;
-    box-shadow: 0px 5px 10px rgb(90, 88, 88);
-}
-.review {
-    background-color: #ebebeb;
-    display: flex;
-    border-radius: 8px;
-    box-shadow: 0px 5px 10px rgb(160, 153, 153);
-    border-left: solid 20px black;
-}
-.review-name{
-    padding-left: 50px;
-    padding-right: 10%;
-    padding-top: 20px;
-    font-weight: bold;
-}
-.review-text {
-    padding-left: 50px;
-    padding-right: 10%;
-    padding-top: 5px;
-}
-.review-date {
-    padding-left: 55px;
-    padding-top: 10px;
-    font-size: 12px;
-    color: grey;
-    padding-bottom: 15px;
-}
-
-.review-img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-bottom: 15px;
-    object-fit: cover;
-}
+    box-shadow: 0px 5px 10px black;
+    transition: 0.9s;
+}  
 
 @media (max-width:600px) {
-    .review-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        row-gap: 20px;
-        margin: 50px 20px;
-    }
-    .review-header {
-        text-align: center;
-        background-color: black;
-        color: white;
-        margin: 0;
-        padding: 20px;
-        border-radius: 8px;
-        text-decoration: underline;
-        box-shadow: 0px 5px 10px rgb(90, 88, 88);
-    }
-    .review {
-        background-color: #ebebeb;
-        display: flex;
-        border-radius: 8px;
-        box-shadow: 0px 5px 10px rgb(160, 153, 153);
+    .store-msg-header {
         font-size: 13px;
     }
-    .review-name{
-        padding-left: 25px;
-        padding-right: 10%;
-        padding-top: 20px;
-        font-weight: bold;
+    .store-msg-txt {
+        font-size: 12px;
     }
-    .review-text {
-        padding-left: 25px;
-        padding-right: 10%;
-        padding-top: 5px;
-        font-size: 14px;
-    }
-    .review-date {
-        padding-left: 30px;
-        padding-top: 10px;
-        font-size: 10px;
-        color: grey;
-        padding-bottom: 15px;
-    }
-    
-    .review-img {
-        width: 80px;
-        height: 80px;
-        border-radius: 50px;
-        margin-left: 20px;
-        margin-top: 20px;
-        margin-bottom: 15px;
-        object-fit: cover;
-    }
-    hr {
-        margin: 0 20px;
-    }
-    
+    .store-msg {
+        margin: 45% 15%;
+        background-color: maroon;
+        color: white;
+        padding: 50px;
+        border-radius: 8px;
+        box-shadow: 0px 5px 10px black;
+    }  
 }
 
-/*Operating Hours*/
-.op-hrs {
+/*Store Header*/
+.store-header {
     text-align: center;
+    color: white;
+    background-color: black;
     padding: 20px;
-    line-height: 30px;
-}
-
-/*Email Subscription*/
-
-form {
-    margin: 50px 5%;
-    padding: 20px;
-    border-radius: 8px;
-    background-color: maroon;
-    color: rgb(247, 242, 227);
     box-shadow: 0px 5px 10px rgb(90, 88, 88);
-  }
-  
-  .email-sub-container {
-    padding: 20px;
-    margin: 0;
-  }
-  
-  input[type=text], input[type=submit], input[type=email], input[type=email] {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    border-radius: 5px;
-  }
-  
-  input[type=submit] {
-    background-color: rgb(247, 242, 227);
-    color: maroon;
-    border: none;
-    font-weight: bold;
-    font-family: poppins, Arial, Helvetica, sans-serif;
-  }
-  
-  input[type=submit]:hover {
-    opacity: 0.8;
-}
-
-input[type=submit]:active {
-    opacity: 0.5;
-}
-
-.submit-message {
-    display: none;
-    padding: 10px;
+    text-decoration: underline;
 }
 
 /*Footer*/
 .footer {
+    margin-top:300px;
     background-color: black;
     color: white;
     padding: 60px;
@@ -639,4 +260,3 @@ input[type=submit]:active {
   .fa-linkedin {
     color: white;
   }
-  
