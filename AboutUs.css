@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: poppins;
+    font-family: poppins, Arial, Helvetica, sans-serif;
     background-color: rgb(253, 251, 246);
     scroll-behavior: smooth;
 }
@@ -300,7 +300,7 @@ div p {
 
    .fa-indeed {
     
-    font-family: poppins;
+    font-family: poppins, Arial, Helvetica, sans-serif;
     padding: 10px;
     text-decoration: none;
     color: white;
