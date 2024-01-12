@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+/*BODY Container*/
+body {
+    background-color: rgb(239, 239, 243);
+}
+
+/*NAVIGATION Styles*/
+.navTwo ul{
+    text-decoration: underline;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(251, 251, 252);
+    padding: 20px;
+   
+}
+
+.navTwo ul li a{
+    color: rgb(177, 2, 2);
+    margin: 5px;
+    font-weight: bold;
+}
+
+/*Header Container*/
+header {
+    display: block;
+    background-image: url(/DPGWebsite/images/heroimg.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+.header-text {
+    padding-left: 20px;
+    color: White;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+@media (max-width:1200px) {
+    .header-text {
+        font-size: 50px;
+        padding: 30px;
+    }
+    .navTwo ul {
+        font-size: 15px;
+    }
+}
+@media (max-width:800px) {
+    header {
+        padding-bottom: 150px;
+    }
+    .header-text {
+        font-size: 45px;
+        padding: 30px;
+    }
+    .navTwo ul{
+      font-size: 12px;
+    }
+}
+@media (max-width:600px) {
+    .navTwo ul{
+      font-size: 10px;
+    }
+}
+
+
+/*WELCOME HEADER STYLES*/
+.welcomeHeader {
+    background: linear-gradient(90deg, red, maroon);
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 20px rgb(151, 151, 151);
+    font-size: 20px;
+} 
+
+.welcomeText {
+    text-align: justify;
+    font-size: 15px;
+    margin: 50px 15%;
+}
+
+/*MISSION CONTAINER STYLES*/
+.missionContainer {
+    text-align: left;
+    margin: 20px 15%;
+    box-shadow: 0 0 20px rgb(151, 151, 151);
+    border-radius: 10px;
+}
+.missionHeader {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.missionText {
+    background-color: white;
+    padding: 15px 10%;
+    font-size: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.logoImage {
+   width: 100px;
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+   border-radius: 50%;
+   transition: 0.8s;
+}
+@media (max-width:600px) {
+    .logoImage {
+        width: 70px;
+        right: 10px;
+        bottom: 10px;
+    }
+}
+
+.about-us-header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgb(90, 88, 88);
+    text-align: center;
+    text-decoration: underline;
+}
+.about-us-header2 {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(90deg, red, maroon);
+    margin-top: 50px;
+    margin-right: 15%;
+    margin-left: 15%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0px 0px 20px rgb(90, 88, 88);
+}
+.about-us-text {
+    text-align: center;
+    margin: 0 15%;
+    background: linear-gradient(90deg, #ebebeb, #c4c2c2);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 30px 15%;
+    color: maroon;
+    box-shadow: 0px 5px 10px rgb(90, 88, 88);
+}
+
+@media (max-width: 800px) {
+    .about-us-header2 {
+        margin-top: 50px;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+    .about-us-text {
+        margin: 0 8%;
+        padding: 15px 10%;
+    }
+}
+
+.core-values-header {
+    padding: 20px;
+    text-align: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 50px;
+    color: white;
+    background-color: black;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0px 5px 10px rgb(90, 88, 88);
+}
+.core-values-text {
+    text-align: left;
+    background: linear-gradient(90deg, #ebebeb, #c4c2c2);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 30px 5%;
+    color: black;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 50px;
+    box-shadow: 0px 5px 10px rgb(90, 88, 88);
+}
+div h3 {
+    background: linear-gradient(90deg, red, maroon);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+div p {
+    padding: 10px;
+}
+
+@media (max-width: 800px) {
+    .core-values-header {
+        margin-top: 50px;
+        margin-right: 8%;
+        margin-left: 8%;
+    }
+    .core-values-text {
+        margin-right:8%;
+        margin-left:8%;
+        margin-bottom: 50px;
+        padding: 15px 5%;
+    }
+}
+
+/*Footer*/
+.footer {
+    background-color: black;
+    color: white;
+    padding: 60px;
+    text-align: left;
+    font-size: 10px;
+}
+
+.fa {
+    padding: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+
+
+   .fa-indeed {
+    
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  .fa-indeed:hover {
+    opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    color: white;
+  }
+  
