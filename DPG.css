@@ -32,7 +32,7 @@ body {
 /*Header Container*/
 header {
     display: block;
-    background-image: url(/DPGWebsite/images/heroimg.webp);
+    background-image: url(./images/heroimg.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
