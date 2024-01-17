@@ -227,6 +227,36 @@ header {
     margin-top: 50px;
 }
 
+/*FREQUENTLY ASKED QUESTIONS*/
+.freqQuestions{
+    padding: 30px 5%;
+}
+.accordion {
+    background: linear-gradient(90deg, black, grey);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    margin: 3px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border-radius: 8px;
+}
+  
+  .active, .accordion:hover {
+   opacity: 0.8;
+  }
+  
+  .panel {
+    background-color: white;
+    padding: 20px 15%;
+    display: none;
+    overflow: hidden;
+    border-radius: 8px;
+  }
 
 /*Reviews*/
 .review-container {
