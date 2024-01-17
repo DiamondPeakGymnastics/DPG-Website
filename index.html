@@ -90,6 +90,47 @@
             <article class="heroImgTwoContainer">
                 <img class="heroImgTwo" src="./images/TeamPhoto1.png">
             </article>
+            <article class="freqQuestions">
+                <h2>Fequently Asked Questions (click or tap for answer)</h2>
+                <br>
+                <button class="accordion">What days are we closed?</button>
+                <div class="panel">
+                    <ul style="padding-left: 30px;">
+                        <li style="list-style-type: circle;">Memorial Day</li>
+                        <li style="list-style-type: circle;">Labor Day</li>
+                        <li style="list-style-type: circle;">Fourth of July</li>
+                        <li style="list-style-type: circle;">Thanksgiving</li>
+                        <li style="list-style-type: circle;">Christmas/New Year (these days may vary)</li>
+                    </ul>
+                </div>
+
+                <button class="accordion">Can Beginners join, or is prior gymnastics eperience needed?</button>
+                <div class="panel">
+                    <p>Absolutely! We welcome beginners of all ages. Our programs are structured to accomadate individuals with no prior experience.</p>
+                </div>
+
+                <button class="accordion">What safety measures and equiptment do you have in place to ensure a secure environment for gymnasts?</button>
+                <div class="panel">
+                    <p>Safety is our top priority. We have all the proper equiptment, experienced instructors, and safety protocols in place to provide a secure environment for all gymnasts.</p>
+                </div>
+
+                <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                    } else {
+                    panel.style.display = "block";
+                    }
+                });
+                }
+                </script>
+            </article>
             <article>
                 <div class="review-container">
                     <h2 class="review-header">REVIEWS</h2>
