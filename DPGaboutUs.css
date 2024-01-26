@@ -78,7 +78,7 @@ header {
 
 /*WELCOME HEADER STYLES*/
 .welcomeHeader {
-    background: linear-gradient(90deg, red, maroon);
+    background-color: maroon;
     color: white;
     line-height: 40px;
     text-align: center;
@@ -142,7 +142,7 @@ header {
     padding: 20px;
     text-align: center;
     color: white;
-    background: linear-gradient(90deg, red, maroon);
+    background-color: maroon;
     margin-top: 50px;
     margin-right: 15%;
     margin-left: 15%;
@@ -198,7 +198,7 @@ header {
     box-shadow: 0px 5px 10px rgb(90, 88, 88);
 }
 div h3 {
-    background: linear-gradient(90deg, red, maroon);
+    background-color: maroon;
     color: white;
     padding: 20px;
     border-radius: 8px;
