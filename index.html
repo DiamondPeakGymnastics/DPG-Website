@@ -91,7 +91,7 @@
                 <img class="heroImgTwo" src="./images/TeamPhoto1.png">
             </article>
             <article class="freqQuestions">
-                <h2>Fequently Asked Questions (click or tap for answer)</h2>
+                <h2>FAQ (click or tap for answer)</h2>
                 <br>
                 <button class="accordion">What days are we closed?</button>
                 <div class="panel">
@@ -104,31 +104,78 @@
                     </ul>
                 </div>
 
-                <button class="accordion">Can Beginners join, or is prior gymnastics experience needed?</button>
+                <button class="accordion">Can I do a trial class?
+                </button>
                 <div class="panel">
-                    <p>Absolutely! We welcome beginners of all ages. Our programs are structured to accomadate individuals with no prior experience.</p>
+                    <p>Yes, the first class is a trial. If you like the class you will be charged for it and the remainder of the month. If you decide not to continue we will drop your child from the system.</p>
                 </div>
 
-                <button class="accordion">What safety measures and equiptment do you have in place to ensure a secure environment for gymnasts?</button>
+                <button class="accordion">Do I have to register to do the trial class?
+                </button>
                 <div class="panel">
-                    <p>Safety is our top priority. We have all the proper equiptment, experienced instructors, and safety protocols in place to provide a secure environment for all gymnasts.</p>
+                    <p>Yes, we ask that you register for the class day and time that works best for you but do not pay until after the first class.</p>
+                </div>
+
+                <button class="accordion">When is Tuition Due?</button>
+                <div class="panel">
+                    <p>Tuition is due by the 7th of the month. A $20 late fee is added on the 8th</p>
+                </div>
+                
+                <button class="accordion">Can I set up Auto-pay?</button>
+                <div class="panel">
+                    <p>Yes we process Auto-pay on the 1st of the month </p>
+                </div>
+
+                <button class="accordion">Is there a registration Fee?</button>
+                <div class="panel">
+                    <p>Yes, we have a yearly registration fee that we charge in September. If you start in a month after September you will be charged the registration fee the month you join then again in September. We do not charge Registration fees during summer</p>
+                </div>
+
+                <button class="accordion">Is Diamond Peak a monthly contract or yearly?</button>
+                <div class="panel">
+                    <p>We are monthly.</p>
+                </div>
+
+                <button class="accordion">Do we have to withdraw from classes if we do not wish to attend any longer?</button>
+                <div class="panel">
+                    <p>Yes, we have a withdrawal form to fill out. We ask that you withdraw from classes prior to the 1st of the month. Once tutition is posted on the 1st you are responsible to pay for that month.</p>
+                </div>
+
+                <button class="accordion">Do you offer make-up days for missed classes?</button>
+                <div class="panel">
+                    <p>We do not do make-up days. Exception is if your child is sick and you provide a dr’s note we may add a credit to your account.</p>
+                </div>
+
+                <button class="accordion">What does my child wear?</button>
+                <div class="panel">
+                    <p>A leotard with/without shorts or leggings can be worn. Please make sure that your stomachs are covered. Hair must be pulled back. Must wear shoes into the building. Please remove all jewelry prior to coming to the gym and leave at home or in a vehicle. Small stud earrings can be worn. We are not liable for any lost Items. Boys should wear shorts with elastic bands and t-shirts.</p>
+                </div>
+
+                <button class="accordion">Do you offer Open gyms?</button>
+                <div class="panel">
+                    <p>Yes we post open gyms in the building, on facebook and our website.</p>
+                </div>
+
+                <button class="accordion">Do you offer Birthday parties?</button>
+                <div class="panel">
+                    <p>Yes, Please contact the office @ 208-590-0100 to inquire about Birthday parties.</p>
                 </div>
 
                 <script>
-                var acc = document.getElementsByClassName("accordion");
-                var i;
+                    var acc = document.getElementsByClassName("accordion");
+                    var i;
 
-                for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function() {
-                    this.classList.toggle("active");
-                    var panel = this.nextElementSibling;
-                    if (panel.style.display === "block") {
-                    panel.style.display = "none";
-                    } else {
-                    panel.style.display = "block";
+                    for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                        this.classList.toggle("active");
+                        var panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                        } else {
+                        panel.style.display = "block";
+                        }
+                    });
                     }
-                });
-                }
                 </script>
             </article>
             <article>
