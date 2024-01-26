@@ -78,7 +78,7 @@ header {
 
 /*WELCOME HEADER STYLES*/
 .welcomeHeader {
-    background: linear-gradient(90deg, red, maroon);
+    background-color: maroon;
     color: white;
     line-height: 40px;
     text-align: center;
@@ -132,7 +132,7 @@ header {
 
 /*REGISTRATION CONTAINER*/
 .registrationContainer {
-    background: linear-gradient(90deg, red, maroon);
+    background-color: maroon;
     margin: 50px 15%;
     text-align: center;
     border-radius: 10px;
@@ -166,7 +166,7 @@ header {
 
 /*STYLES FOR HERO WHY*/
 .heroImageNumTwo {
-    background: linear-gradient(90deg, red, maroon);
+    background-color: maroon;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
@@ -232,7 +232,7 @@ header {
     padding: 30px 5%;
 }
 .accordion {
-    background: linear-gradient(90deg, black, grey);
+    background-color: black;
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -375,7 +375,7 @@ form {
     margin: 50px 5%;
     padding: 20px;
     border-radius: 8px;
-    background: linear-gradient(90deg, red, maroon);
+    background-color: maroon;
     color: rgb(247, 242, 227);
     box-shadow: 0px 5px 10px rgb(90, 88, 88);
   }
