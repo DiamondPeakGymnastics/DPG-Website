@@ -177,7 +177,7 @@ main {
 
 /*HERO IMAGE CONTAINER STYLES*/
 .heroImgContainer {
-    background-image: url(./images/heroimg.webp);
+    background-image: url(./images/heroimg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
