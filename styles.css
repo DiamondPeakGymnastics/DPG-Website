@@ -16,6 +16,7 @@ header{
     padding-bottom: 5px;
     width: 100%;
     border-bottom: 5px solid maroon;
+    z-index:100;
 }
 .logoContainer {
     width: 250px;
@@ -172,7 +173,6 @@ a.registration-link:hover {
 main {
     position: relative;
     min-height: 100vh;
-    z-index: -100;
 }
 
 /*HERO IMAGE CONTAINER STYLES*/
