@@ -20,11 +20,14 @@ header{
     z-index:100;
 }
 .logoContainer {
-    width: 250px;
+    width: 100%;
+    font-size: 25px;
     transition: width 0.8s;
 }
-.logoContainer img{
-    width: 100%;
+.logoContainer img {
+    width: 130px;
+    margin-top: -15px;
+    margin-bottom: -30px;
 }
 nav {
     height: 80px;
@@ -121,7 +124,7 @@ a.registration-link:hover {
         width: 100%;
         height: 100vh;
         background:  #efefef;
-        top: 90px;
+        top: 105px;
         left: -100%;
         text-align: center;
         transition: all .5s;
@@ -140,11 +143,12 @@ a.registration-link:hover {
    }
 }
 @media (max-width: 600px) {
+    .logoContainer img {
+        width: 95px;
+        margin-left: 5px;
+    }
     ul {
         top:95px;
-    }
-    .logoContainer {
-        width: 350px;
     }
     .bar1, .bar2, .bar3 {
     width: 15px;
