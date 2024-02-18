@@ -1,23 +1,24 @@
+/*Poppins, Shadows Into Light, Permanent Marker, Alpha Slab One, Rubik Doodle Shadow*/
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pridi:wght@200;300;400;500;600;700&family=Roboto:wght@400;700&family=Rubik+Doodle+Shadow&family=Shadows+Into+Light&display=swap');
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: poppins;
+    font-family: Poppins;
 }
 
 /*HEADER/NAVIGATION STYLES*/
 header{
     position: fixed;
-    background-color: #efefef;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
     width: 100%;
-    border-bottom: 5px solid maroon;
-    z-index:100;
+    border-bottom: 5px solid rgb(128, 0, 28);
+    z-index: 100;
 }
 .logoContainer {
     width: 100%;
@@ -43,7 +44,7 @@ nav ul li {
     margin: 0 5px;
 }
 nav ul li a {
-    color: rgb(122, 28, 28);
+    color: rgb(128, 0, 28);
     font-size: 15px;
     text-transform: uppercase;
     padding: 10px;
@@ -58,7 +59,7 @@ nav ul li a.menu-link:hover {
     transition: 0.5s;
 }
 a.registration-link {
-    background-color: rgb(122, 28, 28);
+    background-color: rgb(128, 0, 28);
     color: whitesmoke;
     padding: 10px 15px;
     border-radius: 5px;
@@ -118,7 +119,9 @@ a.registration-link:hover {
     .checkbtn {
         display: block;
     }
- 
+    .logoContainer {
+        font-size: 15px;
+    }
     ul {
         position: fixed;
         width: 100%;
@@ -177,9 +180,9 @@ a.registration-link:hover {
 
 main {
     position: relative;
-    min-height: 100vh;
 }
 
+/*HERO IMAGE CONTAINER STYLES*/
 /*HERO IMAGE CONTAINER STYLES*/
 .heroImgContainer {
     background-image: url(./images/heroimg.png);
@@ -187,7 +190,7 @@ main {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding: 300px 20px 40px 20px;
+    padding: 200px 20px 40px 20px;
 }
 
 .heroImgContainer h1{
@@ -210,7 +213,7 @@ main {
 
 .heroImgContainer a {
     color: white;
-    background-color: maroon;
+    background-color: rgb(128, 0, 28);
     padding: 10px 30px;
     border-radius: 8px;
     text-decoration: none;
@@ -228,48 +231,66 @@ main {
         margin-right: 10%;
     }
 }
+
 /*WELCOME HEADER STYLES*/
 .welcomeHeader {
-    background-color: maroon;
+    background-color: rgb(128, 0, 28);
     color: white;
     text-align: center;
     padding:20px;
 }
+.welcomeHeader h1{
+    font-size: 40px;
+}
+@media (max-width:500px) {
+    .welcomeHeader h1{
+        font-size: 25px;
+    }
+    .welcomeHeader h3{
+        font-size: 12px;
+    }
+}
 .classphoto img{
     width: 100%;
-    border-top: 10px solid maroon;
-    border-bottom: 10px solid maroon;
+    border-top: 10px solid rgb(128, 0, 28);
+    border-bottom: 10px solid rgb(128, 0, 28);
 }
 
 /*WHY SECTION STYLES*/
-.whySectionHeader {
+.whySectionHeader{
     text-align: center;
-    font-size: 13px;
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.637);
 }
+
 .whySection {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 0 5px;
-    color: #575656;
-
+    padding: 20px 5px;
+    color: #000000;
+    background: linear-gradient(180deg, rgb(228, 228, 228), rgb(128, 0, 28));
 }
 .whySectionItem {
-    background-color: #efefef;
+    background-color: #ffffff;
     margin: 15px;
     text-align: center;
-    border-radius: 5px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 10px 10px #1400003a;
+    border-radius: 8px;
+    background-color: rgb(233, 227, 227);
 }
 .whySectionItem h3 {
+    color: #000000;
     margin: 10px 20px;
 }
 .whySectionItem img {
     width: 100%;
     height: 200px;
     object-fit: cover;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 .whySectionItem p {
     margin:10px;
@@ -285,69 +306,115 @@ main {
     }
 }
 
-/*WHAT WE OFFER STYLES!*/
-.whatWeOffer {
-    margin: 40px 5%;
-    border-radius: 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    padding: 10px 10%;
-    background-color: #ebebeb;
-}
-.whatWeOfferItem {
-    width:fit-content;
-    padding: 30px;
-    text-align: left;
-}
-.whatWeOfferItem img{
-    border-radius: 8px;
-    max-width: 100%;
-}
-@media (max-width:600px) {
-    .whatWeOffer {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    .whatWeOfferItem {
-        font-size: 13px;
-    }
-}
-/*REGISTRATION CONTAINER*/
-.registrationContainer {
-    background-color:maroon;
-    margin: 80px 20% 80px 20%;
+/*ALL PRICING STYLES*/
+.allPricingHeader {
     text-align: center;
-    border-radius: 10px;
-    box-shadow: 0 0 20px rgb(151, 151, 151);
-}
-.registrationText {
-    font-size: 15px;
-    padding: 30px 15%;
+    background-color: rgb(128, 0, 28);
     color: white;
+    line-height: 30px;
+    padding: 25px;
 }
-.registrationButton {
+.pricingTableContainer {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 30px;
+    background: linear-gradient(180deg, rgb(128, 0, 28), #ffffff 90%);
+}
+.pricingTableContainer::-webkit-scrollbar{
+    display:  none;
+}
+.pricingTable {
     text-align: center;
-    padding: 10px;
-    background-color: white;
-    cursor: pointer;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
-.registrationButton a{
-    color: black;
-    padding: 15px;
+.column{
+    display: inline-block;
+    text-wrap: wrap;
+    vertical-align: top;
+    margin-right: 20px;
+    margin-left: 10px;
+    width: 400px;
+    height: 395px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.555);
+    border-radius: 8px;
+    background-color:#ebebeb;
+    transition: box-shadow 0.5s;
 }
-@media (max-width:600) {
-    .registrationContainer {
-        background-color:maroon;
-        margin: 80px 10% 80px 10%;
-        text-align: center;
-        border-radius: 10px;
-        box-shadow: 0 0 20px rgb(151, 151, 151);
-    }
+.breakLineLarge {
+    height:10px;
+    background-color: rgb(0, 0, 0);
+    margin: 10px 0px;
+}
+.breakLineSmall {
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin:10px 0px;
+}
+.classPricingHeader {
+    font-size: 25px;
+    line-height: 35px;
+    margin-top: 20px;
+}
+.classAgeRange {
+    font-size: 12px;
+}
+.classPrice{
+    font-size: 15px;
+}
+.priceNumber {
+    font-size: 25px;
+    font-family: Poppins;
+}
+.classDescriptionHeader{
+    color: #000000;
+    text-align: left;
+    margin-left: 20px;
+}
+.classDescription {
+    margin: 0 20px 0px 20px;
+    font-size: 12px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 20px;
 }
 
+@media (max-width:700px) {
+    .classDescription{
+        font-size: 10px;
+    }
+    .column {
+        width: 255px;
+    }
+    .allPricingsHeader {
+        font-size: 25px;
+        padding: 20px;
+        margin-bottom: -40px;
+    }
+
+}
+
+
+
+/*Registration Container Styles*/
+.registrationContainer{
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.registrationContainer a{
+    background-color: rgb(128, 0, 28);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ebebeb;
+    font-weight: 700;
+    word-spacing: 5px;
+    box-shadow: 5px 5px 20px rgb(110, 0, 0);
+    transition: 0.5s;
+}
+.registrationContainer a:hover{
+    box-shadow: 5px 5px 45px rgb(189, 2, 2);
+}
 /*BIRTHDAY FLYER*/
 .birthday {
     margin: 0 auto;
@@ -373,7 +440,7 @@ main {
 
 .birthday-flyer {
     border-radius: 5px;
-    border: 1px solid maroon;
+    border: 1px solid rgb(128, 0, 28);
     width: 80%;
     object-fit: cover;
     object-position: bottom;
@@ -396,7 +463,7 @@ main {
     text-align: center;
 }
 .accordion {
-    background-color: maroon;
+    background-color: rgb(128, 0, 28);
     color: white;
     cursor: pointer;
     padding: 18px;
@@ -437,7 +504,7 @@ main {
 .review {
     display: flex;
     border-radius: 8px;
-    box-shadow: 0px 5px 10px rgb(160, 153, 153);
+    box-shadow: 0px 10px 15px rgba(95, 0, 0, 0.349);
     border-left: solid 20px black;
 }
 .review-name{
@@ -598,10 +665,10 @@ main {
 
  /*ABOUT US PAGE*/
  .about-us-header {
-    background-color: maroon;
+    background-color: rgb(128, 0, 28);
     color: #ebebeb;
     text-align: center;
-    padding: 30px;
+    margin-top:5px;
  }
 .missionContainer {
     background-color: #ebebeb;
@@ -614,4 +681,9 @@ main {
     margin:20px 10%;
     padding: 20px 5%;
     border-radius: 5px;
+}
+@media (max-width:600px){
+    .about-us-header{
+        margin-top:-5px;
+    }
 }
