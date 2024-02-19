@@ -472,12 +472,12 @@ main {
     color: white;
     margin: 0;
     padding: 20px;
-    border-radius: 8px;
+    border-radius: 20px;
     text-decoration: underline;
 }
 .review {
     display: flex;
-    border-radius: 8px;
+    border-radius: 20px;
     box-shadow: 0px 10px 15px rgba(95, 0, 0, 0.349);
     border-left: solid 20px black;
 }
@@ -523,13 +523,11 @@ main {
         color: white;
         margin: 0;
         padding: 20px;
-        border-radius: 8px;
         text-decoration: underline;
     }
     .review {
         background-color: #ebebeb;
         display: flex;
-        border-radius: 8px;
         box-shadow: 0px 5px 10px rgb(160, 153, 153);
         font-size: 13px;
     }
