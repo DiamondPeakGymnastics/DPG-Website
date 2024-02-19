@@ -363,7 +363,11 @@ main {
     text-align: left;
     padding: 10px;
 }
-
+@media (max-width:600px){
+    .item{
+        min-width: 230px;
+    }
+}
 
 /*Registration Container Styles*/
 .registrationContainer{
