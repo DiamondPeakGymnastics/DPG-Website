@@ -55,14 +55,14 @@ nav ul li a.menu-link:hover {
     cursor: pointer; 
     color: black;
     background-color: whitesmoke;
-    border-radius: 3px;
+    border-radius: 20px;
     transition: 0.5s;
 }
 a.registration-link {
     background-color: rgb(128, 0, 28);
     color: whitesmoke;
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 a.registration-link:hover {
     background-color: black;
@@ -198,7 +198,7 @@ main {
     color: white;
     background-color: rgba(0, 0, 0, 0.644);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
 
 }
 .heroImgContainer p {
@@ -207,7 +207,7 @@ main {
     max-width: 300px;
     background-color: rgba(255, 255, 255, 0.781);
     color: rgb(0, 0, 0);
-    border-radius: 5px;
+    border-radius: 20px;
     font-size: 15px;
 }
 
@@ -215,7 +215,7 @@ main {
     color: white;
     background-color: rgb(128, 0, 28);
     padding: 10px 30px;
-    border-radius: 8px;
+    border-radius: 20px;
     text-decoration: none;
 }
 
@@ -278,7 +278,7 @@ main {
     padding-top: 10px;
     padding-bottom: 10px;
     box-shadow: 0px 10px 10px #1400003a;
-    border-radius: 8px;
+    border-radius: 20px;
     background-color: rgb(233, 227, 227);
 }
 .whySectionItem h3 {
@@ -305,95 +305,64 @@ main {
         margin: 15px 45px;
     }
 }
-
-/*ALL PRICING STYLES*/
-.allPricingHeader {
-    text-align: center;
+/*CLASSES AND PRICING*/
+.allPricingHeader{
     background-color: rgb(128, 0, 28);
     color: white;
-    line-height: 30px;
-    padding: 25px;
-}
-.pricingTableContainer {
-    overflow-x: auto;
-    white-space: nowrap;
-    padding: 30px;
-    background: linear-gradient(180deg, rgb(128, 0, 28), #ffffff 90%);
-}
-.pricingTableContainer::-webkit-scrollbar{
-    display:  none;
-}
-.pricingTable {
     text-align: center;
 }
-.column{
-    display: inline-block;
-    vertical-align: top;
-    margin-right: 20px;
-    margin-left: 10px;
-    width: 400px;
-    height: 395px;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.555);
-    border-radius: 8px;
-    background-color:#ebebeb;
-    transition: box-shadow 0.5s;
+.container{
+    overflow-x: auto;
+    background: linear-gradient(180deg, rgb(128, 0, 28), white 75%);
+    display: flex;
+    font-family: poppins;
 }
-.breakLineLarge {
-    height:10px;
-    background-color: rgb(0, 0, 0);
-    margin: 10px 0px;
+.container::-webkit-scrollbar{
+    display: none;
 }
-.breakLineSmall {
-    height: 2px;
-    background-color: rgb(0, 0, 0);
-    margin:10px 0px;
+.item {
+    min-width: 300px;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 10px 10px #1400003a;
 }
-.classPricingHeader {
+.itemHeader{
     font-size: 25px;
-    line-height: 35px;
-    margin-top: 20px;
 }
-.classAgeRange {
-    font-size: 12px;
+.itemAge{
+    font-size: 10px;
+    margin-top: -5px;
+    margin-bottom: 10px;
 }
-.classPrice{
+.largeBreak {
+    height: 8px;
+    background-color: black;
+    margin: 0 -10px;
+}
+.itemPriceBigNumber{
+    font-size: 30px;
+}
+.itemPrice{
     font-size: 15px;
 }
-.priceNumber {
-    font-size: 25px;
-    font-family: Poppins;
+.smallBreak {
+    height: 2px;
+    background-color: black;
+    margin: 0 -10px;
 }
-.classDescriptionHeader{
-    color: #000000;
+.itemDescriptionHeader {
     text-align: left;
-    margin-left: 20px;
+    margin-top: 10px;
 }
-.classDescription {
-    margin: 0 20px 0px 20px;
-    padding-right: 40px;
+.itemDescriptionText{
     font-size: 12px;
-    color: #000000;
+    margin-top: -10px;
     text-align: left;
-    margin-bottom: 20px;
-    width: 100%;
-    text-wrap: wrap;
+    padding: 10px;
 }
-
-@media (max-width:700px) {
-    .classDescription{
-        font-size: 10px;
-    }
-    .column {
-        width: 255px;
-    }
-    .allPricingsHeader {
-        font-size: 25px;
-        padding: 20px;
-        margin-bottom: -40px;
-    }
-
-}
-
 
 
 /*Registration Container Styles*/
@@ -431,7 +400,7 @@ main {
     background-color: #efefef;
     color: #575656;
     margin: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 .birthday-header {
@@ -440,7 +409,7 @@ main {
 }
 
 .birthday-flyer {
-    border-radius: 5px;
+    border-radius: 20px;
     border: 1px solid rgb(128, 0, 28);
     width: 80%;
     object-fit: cover;
@@ -475,14 +444,14 @@ main {
     outline: none;
     font-size: 15px;
     transition: 0.4s;
-    border-radius: 8px;
+    border-radius: 20px;
 }
   
 .panel {
     background-color: white;
     display: none;
     overflow: hidden;
-    border-radius: 8px;
+    border-radius: 20px;
     padding: 10px 50px;  
 }
 
@@ -675,13 +644,13 @@ main {
     background-color: #ebebeb;
     margin: 20px 10%;
     padding: 20px 5%;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 .core-values-text {
     background-color: #ebebeb;
     margin:20px 10%;
     padding: 20px 5%;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 @media (max-width:600px){
     .about-us-header{
