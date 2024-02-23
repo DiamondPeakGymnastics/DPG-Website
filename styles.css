@@ -317,9 +317,6 @@ main {
     display: flex;
     font-family: poppins;
 }
-.container::-webkit-scrollbar{
-    display: none;
-}
 .item {
     min-width: 300px;
     background-color: #ebebeb;
