@@ -685,19 +685,6 @@ font-size: 15px;
   padding: 20px;
 }
 
-/*SPONSOR SECTIONS STYLES*/
-#sponsorsContainer{
-  text-align: center;
-}
-#sponsorsContainer img{
-  border-radius: 20px;
-  border: 1px solid rgb(128, 0, 28);
-  width: 80%;
-  object-fit: cover;
-  object-position: bottom;
-  padding: 0;
-  margin: 20px 0;
-}
 
 
 
