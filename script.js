@@ -39,12 +39,11 @@ window.addEventListener('scroll', () => {
     lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Prevent negative scroll
 });
 
-//START OF NUT FREE BANNER FUNCTION
-function closeBanner(){
-    let el = document.getElementById("nutFreeBanner");
-    el.style.display = "none"
+//START OF BANNER FUNCTION
+function closeBanner(x){
+    x.parentElement.style.display = "none";
 }
-//END OF NUT FREE BANNER FUNCTION
+//END OF BANNER FUNCTION
 /*Carousel section */
 document.addEventListener("DOMContentLoaded", () => {
     const slides = document.querySelectorAll(".carousel-slide");
