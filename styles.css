@@ -115,6 +115,29 @@ header {
 }
 /*END OF NAVIGATIONS STYLES*/
 
+/*START OF ENROLLMENT BANNER STYLES*/
+#enrollmentBanner{
+  text-align: left;
+  background-color:greenyellow;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid black;
+}
+#enrollmentBanner button{
+  background-color: greenyellow;
+  border: none;
+  color: black;
+  font-size: larger;
+  padding: 5px;
+}
+#enrollmentBanner button:hover{
+  border: 1px solid black;
+  border-radius: 5px;
+}
+/*END OF ENROLLMENT BANNER STYLES*/
 /*START OF NUT FREE BANNER STYLES*/
 #nutFreeBanner{
     text-align: left;
@@ -138,7 +161,10 @@ header {
 }
 @media only screen and (max-width:800px){
     #nutFreeBanner{
-        font-size: 13px;
+        font-size: 12px;
+    }
+    #enrollmentBanner{
+      font-size: 12px;
     }
 }
 /*END OF NUT FREE BANNER STYLES*/
